@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	position:absolute;
+	/*top: -300%;*/
+}
+.page{
+	/*相对定位*/
+	position: relative;
+}
+img{
+	position: absolute;
+}
+.page1{
+	background: #00CCFF;
+}
+
+.page1-Building{
+	width: 100%;
+	height: 30%;
+	bottom: 0;
+	display: none;
+}
+
+.page1-Elements{
+	width: 100%;
+	height: 100%;
+	animation: zooming 2s linear infinite;
+}
+
+.page1-Cloud{
+	width: 90%;
+	height: 90%;
+	left: 0;
+	right: 0;
+	top: 5%;
+	margin: auto;
+	animation: zooming 2s linear infinite;
+}
+
+@keyframes zooming{
+	0%{transform: scale(0.9);}
+	50%{transform: scale(1);}
+	100%{transform: scale(0.9);}
+}
+
+.page1-Flight{
+	width: 0%;
+	bottom: 25%;
+	left: 15%;
+	right: 0;/*
+	margin: auto;*/
+	animation: flightZooming 4s linear infinite;
+}
+
+@keyframes flightZooming{
+	0%{transform: scale(1);}
+	50%{transform: scale(1.4);}
+	100%{transform: scale(1);}
+}
+
+.page1-Flowers01{
+	width: 18%;
+	top: 10%;
+	left: 10%;/*
+	z-index: 200;*/
+	animation: rotate 3s linear infinite;
+}
+
+.page1-Flowers02{
+	width: 20%;
+	top: 25%;
+	right: 18%;
+	animation: rotate 3s linear infinite;
+}
+
+@keyframes  rotate{
+	0%{transform: rotate(0deg);}
+	5%{transform: rotate(0deg);}
+	27.5%{transform: rotate(30deg);}
+	50%{transform: rotate(0deg);}
+	55%{transform: rotate(0deg);}
+	77.5%{transform: rotate(-30deg);}
+	100%{transform: rotate(0deg);}
+}
+
+.page1-Stars{
+	width: 100%;
+}
+
+.page1-Txt{
+	width: 60%;
+	left: 0;
+	right: 0;
+	top: 10%;
+	margin: auto;
+}
+
+.page2{
+	background: aquamarine;
+}
+
+.page2-Bg{
+	width: 100%;
+	height: 100%;
+}
+
+.page2-Farm{
+	width: 70%;
+	top:30%;
+	right: 0;
+	display: none;
+}
+
+.page2-IT{
+	width: 70%;
+	top:60%;
+	right: 0;
+	display: none;
+}
+
+.page2-Star{
+	width: 100%;
+	height: 100%;
+}
+
+.page3{
+	background: blue;
+}
+
+.page3-earlyBg{
+	width: 100%;
+	height: 100%;
+}
+
+.page3-lastBusStation{
+	width: 100%;
+	bottom: 0;
+}
+
+.page3-bus{
+	width: 65%;
+	left: 0;
+	bottom: 10%;
+}
+
+.page3-lastBusAvatar{
+	width: 30%;
+	right: 5%;
+	bottom: 12%;
+}
+
+.page3-lastBusTitle{
+	width: 40%;
+	display: none;
+}
+
+.page3-earlyBuilding{
+	width: 100%;
+	bottom: 0;/*
+	z-index: 5;*/
+	display: none;
+}
+
+.page3-earlyTitle{
+	width: 30%;
+	top: 8%;/*
+	z-index: 3;*/
+	display: none;
+}
+
+.page3-myTeamSpace{
+	width: 0%;
+	left: 9%;
+	top: 17%;/*
+	display: none;*/
+}
+
+.page3-myTeamAvatar{
+	right: 11%;
+	top: 22%;
+	display: none;
+}
+
+.page3-myTeamWall{
+	width: 25%;
+	height: 67%;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
+.page3-myteamWhereTxt{
+	width: 0%;
+	left: 10%;
+	bottom: 10%;/*
+	display: none;*/
+}
+
+.page4{
+	background: white;
+}
+
+.page4-lightOffBg{
+	width: 100%;
+	height: 100%;
+}
+
+.page4-lightOff{
+	width: 30%;
+	left: 5%;
+	bottom: 0%;
+}
+
+.page4-cornerTitle{
+	right: 0%;
+	top: 14%;
+}
+
+.page4-clickGuide{
+	width: 70%;
+	left: 20%;
+	top: 30%;
+}
+
+.page4-lightOnBg{
+	width: 100%;
+	display: none;
+}
+
+.page4-weKnowYou{
+	width: 40%;
+	left: 40%;
+	top: 20%;
+	display: none;
+}
